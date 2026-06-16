@@ -19,5 +19,5 @@ def prepare(){
 	sh "docker build -t atiskrievinstdl/api-tests-final:latest ."
 
 	echo "Pushing the image to Docker registry"
-	sh "docker push atiskrievinstdl/api-test-final:latest"
+	sh "docker push atiskrievinstdl/api-tests-final:latest"
 }
